@@ -5,7 +5,7 @@
 int main () {                                                                       // main function definition
 
     int num;                                                                        // Variable declaration
-    printf("\n Enter an integer to find its divisor's : ");
+    printf("\n\n Enter an integer to find its divisor's : ");
     scanf("%i",&num);                                                               // User input number
     printf("\n The divisors of %i are \n\n",num);
     for (int i = 1;i <= num;i++){                                                   // for logic for iteration
